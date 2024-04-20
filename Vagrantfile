@@ -75,6 +75,8 @@ Vagrant.configure("2") do |config|
      sudo apt-cache policy docker-ce
      sudo apt install -y docker-ce
      sudo systemctl status docker
+  #  sudo docker pull bkimminich/juice-shop
+  #  sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
    SHELL
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
